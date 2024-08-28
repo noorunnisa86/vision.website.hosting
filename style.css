@@ -1,0 +1,475 @@
+@import url(./clash-display.css); 
+/*--Variables--*/
+:root{
+    --c-dark: #212529;
+    --c-brand: #4e9b06;
+    --c-brand-light: #87dd37;
+    --c-brand-rgb: 78, 155, 6;
+    --c-body: #727272;
+    --font-base: "ClashDisplays", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(51, 48, 48, 0.08);
+    --transition: all 0.5s ease;
+}
+/*--Helpers--*/
+body{
+    font-family: "ClashDisplays", sans-serif;
+    line-height: 1.7;
+    color: #4e9b06;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 600;
+    color: var(--c-brand);
+}
+a{
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+a:hover{
+    color: var(--c-brand-light);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.section-padding{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section-title{
+    color: var(--c-brand);
+}
+.theme-shadow{
+    box-shadow: var(--box-shadow);
+}
+/*--Navbar--*/
+.navbar-one{
+    background-color: #87dd37;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.contact-details p{
+    display: inline-block;
+    color: #fdfdfd;
+    margin-right: 16px;
+    margin-bottom: 0;
+}
+.navbar-one p,
+.navbar-one span{
+    vertical-align: middle;
+}
+.contact-details p:hover{
+    color: #212529;
+}
+.contact-details i{
+    font-size: 12px;
+    margin-left: 2px;
+    color: #fdfdfd;
+    cursor: pointer;
+}
+.contact-details i:hover{
+    color: #212529;
+}
+.social-box a{
+    background-color: rgba(29, 24, 24, 0.322);
+    width: 30px;
+    height: 30px;    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;   
+    color: #fdfdfd;
+    font-size: 15px;
+    border-radius: 100%;
+}
+.social-box a:hover{
+    color: var(--c-dark);
+}
+.navbar{
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--c-brand);
+}
+.navbar-nav .nav-link.active{
+    color: var(--c-brand);
+    background-color: rgba(83, 77, 77, 0.08);
+}
+.navbar-nav .nav-link:hover{
+    color: #46c526;
+}
+.dropdown-menu .dropdown-item{
+    color: #4e9b06;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #fdfdfd;
+    background-color: #5eb349;
+}
+/*------Carousel------*/
+.carousel-caption-custom {
+    background-color: white;
+        width: 80%;
+        max-width: 450px;
+        text-align: center;
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        height: auto;
+        padding: 20px;
+    }
+    .carousel-caption-custom h5 {
+        color: #4e9b06;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .carousel-caption-custom p {
+        color: black;
+    }
+    .carousel-caption-custom .btn {
+        background-color: #50990c;
+        color: whitesmoke;
+    }
+
+    @media (max-width: 768px) {
+        .carousel-caption-custom {
+            right: 5%;
+            width: 90%;
+            bottom: 15%;
+        }
+        .carousel-caption-custom h5 {
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .carousel-caption-custom {
+            right: 2%;
+            width: 95%;
+            bottom: 10%;
+        }
+        .carousel-caption-custom h5 {
+            font-size: 20px;
+        }
+    }   
+
+/*--Section Title--*/
+#section{
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.3), rgba(var(--c-brand-rgb),0.5)),
+    url(../images/news2.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.section-title{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.section-title .line{
+    width: 100px;
+    height: 4px;
+    background-color: #212529;
+    margin: 16px auto 24px auto;
+}
+.section-title p{
+    color: black;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+/*--Our Intro--*/
+#intro{
+    background-image: url(../images/news2.jpg);
+     background-size: cover;
+     background-position: center;
+     margin:30px 0px 30px 0;
+}
+.video .video-object {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*--Iconbox--*/
+.iconbox{
+    background-color: #fdfdfd;
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;   
+}
+/*--Why Choose Us--*/
+.service{
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(34, 30, 30, 0.6);
+    box-shadow: var(--box-shadow);
+    transition: all 0.3 ease;
+    height: 325px;
+    
+}
+.section-title .line{
+    width: 100px;
+    height: 4px;
+    background-color: #4d4e50;
+    margin: 16px auto 24px auto;
+}
+.service h5{
+    color:whitesmoke;
+}
+.service p{
+  color: whitesmoke;
+}
+.service:hover{
+    background-color: #87dd37;
+    color: #212529;
+    border-radius: 10px;
+}
+.service:hover .iconbox{
+    background-color: #87dd37;
+    color: #212529;
+    border-radius: 10px;
+}
+.service:hover h5,
+.service:hover p{
+    color: #212529;
+}
+/*--Counter--*/
+#counter{
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.6), rgba(var(--c-brand-rgb),0.6)),
+    url(../images/pexels-pixabay-356049.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+.iconbox1{
+    width: 80px;
+    height: 90px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;   
+}
+/*--Our Team--*/
+.main-container{
+    display: inline-flex;
+    justify-content: left;
+    position: relative;
+    margin-left: 25px;
+}
+.main-container img{
+    width: 300px; 
+    height: 350px;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.main-container:hover .overlay{
+    height: 100%;
+}
+.overlay h2{
+    width: 100%;
+    margin-top: 40%;
+    color: whitesmoke;
+    font-size: 2.5vw;
+    text-align: center;
+    position: absolute;
+    letter-spacing: 1px;
+}
+.overlay h5{
+    text-align: center;
+    color: rgb(170, 179, 179);
+    font-size: 2vw;
+    margin: 60% 0 0 10%;
+    width: 80%;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+/*--FAQ's--*/
+#accordian{
+    position: relative;
+    z-index: 2;
+}  
+#accordian::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.5), rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.9));
+     background-position: center;
+     background-size: cover;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+} 
+/*--Get in Touch--*/
+#contact{
+    position: relative;
+    z-index: 2;
+}  
+#contact::after{
+    content:"";
+    width: 100%;
+    height: 75%;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.6), rgba(var(--c-brand-rgb), 0.6)),
+     url(../images/news2.jpg);
+     background-position: center;
+     background-size: cover;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+} 
+/*--Solar Packeges--*/
+#residential{
+    background-color: #beb9b933;
+}
+.card-container{
+    display: flex;
+    place-items: center;
+
+}
+.card-article{
+    position: relative;
+    overflow: hidden;
+}
+.card-image{
+    width: 260px;
+    height: 270px;
+    border-radius: 14px;
+    border: 2px solid #71727446;
+    margin: 0px 0px 0px 12px;
+}
+.card-data{
+    width: 230px;
+    text-align: center;
+    background-color: #c1fab2;
+    padding: 20px;
+    box-shadow: hsla(0, 0%, 0%, 0.15);
+    border-radius: 10px;
+    position: absolute;
+    bottom: -8.5rem;
+    left: 0;
+    right: 0;
+    margin-inline: 36px;
+    opacity: 0;
+    transition: opacity 1s 1s;
+}
+.card-title{
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #4e9b06;
+    font-weight: 500;
+}
+.card-button{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--c-dark);
+    background-color: rgba(65, 60, 60, 0.08);
+}
+.card-button:hover{
+    text-decoration: underline;
+    color: #212529;
+}
+.card-article:hover .card-data{
+    animation: showdata 1s forwards;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.card-article:hover{
+    animation: remove-overflow 2s forwards; 
+}
+.card-article:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+.card-article:not(:hover) .card-data{
+    animation: remove-data 1s forwards;
+}
+@keyframes showdata{
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(-7rem);
+    }
+}
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+@keyframes remove-data{
+    0%{
+        transform: translateY(-7rem);
+    }
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+            transform: translateY(.5rem);
+        }
+    }
+@keyframes show-overflow{
+    0%{
+        overflow: initial;
+        pointer-events: none;
+    }
+    50%{
+        overflow: hidden;
+    }     
+}
+/*--Solar Packages--*/
+#commercial{
+    background-color: #beb9b933;
+}
+.packages{
+    margin-left: 50px;
+}
+.package-image{
+    width: 500px;
+    height: 405px;
+    border: 3px solid #4d4e5031;
+}
+.package-image .card-img-custom{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+#industrial{
+    background-color: #beb9b933;
+}
+.button{
+    background-color: #4e9b06;
+    color:whitesmoke;
+    padding: 8px; 
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #fdfdfd;
+    color: #87dd37;
+    font-size: 18px;
+    font-weight: bold;
+    border:2px solid #87dd37;
+    border-radius: 6px;
+}
+/*--Blog--*/
+.header .line{
+    width: 100px;
+    height: 4px;
+    background-color: #272c309f;
+    margin: 16px auto 24px auto;
+}
