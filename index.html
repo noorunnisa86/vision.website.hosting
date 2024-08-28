@@ -1,0 +1,1056 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+  <title>Sun Spark Solar Energy</title>
+
+  <style>
+    .section-padding {
+     padding: 60px 0;
+   }
+   .text-center {
+     text-align: center;
+   }
+   .section-title {
+     margin-bottom: 40px;
+   }
+   .section-title h1 {
+     font-size: 2.5rem;
+     font-weight: 600;
+   }
+   .line {
+     width: 60px;
+     height: 4px;
+     background: #000;
+     margin: 20px auto;
+   }
+   .container {
+     width: 90%;
+     margin: 0 auto;
+   }
+   .slide-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   .slide-image {
+     margin: 10px;
+   }
+   .slide-image img {
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+     border-radius: 10px;
+   }
+   /* New styles for responsiveness */
+   .carousel-caption-custom {
+     text-align: center;
+     bottom: 50px;
+   }
+   .carousel-caption-custom h5 {
+     font-size: 2rem;
+     font-weight: bold;
+   }
+   .carousel-caption-custom p {
+     font-size: 1.25rem;
+   }
+   .carousel-caption-custom .btn {
+     padding: 10px 20px;
+     font-size: 1rem;
+   }
+   @media (max-width: 768px) {
+     .carousel-caption-custom h5 {
+       font-size: 1.5rem;
+     }
+     .carousel-caption-custom p {
+       font-size: 1rem;
+     }
+     .carousel-caption-custom .btn {
+       font-size: 0.875rem;
+       padding: 8px 16px;
+     }
+     #about img {
+       margin: 0 auto;
+       display: block;
+     }
+     .about-content {
+       text-align: center;
+       margin-top: 20px;
+     }
+   }
+   @media (max-width: 576px) {
+     .carousel-caption-custom h5 {
+       font-size: 1.25rem;
+     }
+     .carousel-caption-custom p {
+       font-size: 0.875rem;
+     }
+     .carousel-caption-custom .btn {
+       font-size: 0.75rem;
+       padding: 6px 12px;
+     }
+   }
+  </style>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav id="top-bar" class="navbar-one">
+    <div class="container container-full-width">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+          <div class="contact-details">
+            <p>
+              <i class="bi bi-telephone-fill"></i>
+              <span>+ 92 300 0708638</span>
+            </p>
+            <p>
+              <i class="bi bi-envelope-fill"></i>
+              <span>info@example.com</span>
+            </p>
+            <p>
+              <i class="bi bi-clock-fill"></i>
+              <span>Mon-Fri 10:00-6:00</span>
+            </p>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="top-social">
+            <div class="social-box">
+              <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i></i></a>
+              <a href="https://twitter.com/"> <i class="fab fa-twitter"></i></a>
+              <a href="https://www.google.com/"><i class="fab fa-google"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Navbar2-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/Heading-removebg-preview.png" alt="logo" width="150" height="55">
+      </a>
+      <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-dark"><i style="color: #4e9b06;" class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Solar Packages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./residential solutions.html">Residential Solutions</a></li>
+              <li><a class="dropdown-item" href="./commercial solutions.html">Commercial Solutions</a></li>
+              <li><a class="dropdown-item" href="./industrial solutions.html">Industrial Solutions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Carousel-->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/images/slide1.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption carousel-caption-custom">
+          <h5>Powering Tomorrow’s World</h5>
+          <p>Offers cost-effective and top-notch solar solutions</p>
+          <a href="./contact.html" class="btn btn-primary">Get Free Consultation</a>
+        </div>
+      </div>
+      <!-- Add more carousel items here -->
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+ <!--About-->
+<section id="about" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h1 class="display-4 fw-semibold">About Us</h1>
+          <div class="line"></div>
+          <p>Our bright ideas come from the Sun</p>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-5 mx-auto text-center text-lg-start mb-4 mb-lg-0">
+        <img src="./assets/images/aboutimg.png" class="img-fluid" alt="image1">
+      </div>
+      <div class="col-lg-5 mx-auto">
+        <h1 style="color: #4e9b06;" class="text-center text-lg-start">About Sun Spark</h1>
+        <p class="mt-3 mb-4 text-center text-lg-start">As a solar company, we take on the responsibility to ensure all our clients have a positive experience switching to solar energy.</p>
+        <div class="d-flex flex-column flex-lg-row align-items-center mb-2">
+          <div class="iconbox me-4">
+            <img src="./assets/images/Screenshot_2024-07-13_182650-removebg-preview.png" class="img-fluid" alt="image2">
+          </div>
+          <div>
+            <h5 style="color: #4e9b06;" class="text-center text-lg-start">Solar Panel Services</h5>
+            <p class="text-center text-lg-start">It allows you to see exactly how various external factors affect your panels' performance and how well they're maintaining their efficiency across their life.</p>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row align-items-center mb-2">
+          <div class="iconbox me-4">
+            <img src="./assets/images/Screenshot_2024-07-13_183342-removebg-preview.png" class="img-fluid" alt="image3">
+          </div>
+          <div>
+            <h5 style="color: #4e9b06;" class="text-center text-lg-start">Wind Power Energy</h5>
+            <p class="text-center text-lg-start">Wind power or wind energy is a form of renewable energy that harnesses the power of the wind to generate electricity.</p>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row align-items-center">
+          <div class="iconbox me-4">
+            <img src="./assets/images/Screenshot_2024-07-13_183819-removebg-preview.png" class="img-fluid" alt="image">
+          </div>
+          <div>
+            <h5 style="color: #4e9b06;" class="text-center text-lg-start">Renewable Energy</h5>
+            <p class="text-center text-lg-start">Renewable energy is energy derived from natural sources that are replenished at a higher rate than they are consumed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+
+
+      <!--Our Intro-->
+  <section>
+    <div id="intro" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title">
+              <h1 class="display-2 fw-semibold">Our Intro</h1>
+              <div class="line"></div>
+              <p>Go to Solar</p>
+            </div>
+          </div>
+          <div class="video">
+            <div class="video-object">
+              <iframe width="990" height="615" src="https://www.youtube.com/embed/jL04NLzwjXw?si=jg0LNAe4tYvLUujI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>       
+
+
+  <!--Why Choose Us-->
+  <section id="section" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold">Why Choose Us</h1>
+            <div class="line"></div>
+            <p>We offer differnt services</p>
+          </div>
+        </div>
+        <div class="row g-4 text-center">
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <img src="./assets/images/Screenshot_2024-07-17_171117-removebg-preview.png" alt="image" width="70px"
+                  height="60px">
+              </div>
+              <h5 class="mt-4 mb-2">Solar Power</h5>
+              <p>Innovation and intelligence are the core essence of our solar empowering system.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <img src="./assets/images/Screenshot_2024-07-17_175148-removebg-preview.png" alt="image" width="70px"
+                  height="60px">
+              </div>
+              <h5 class="mt-4 mb-3">Newest Technology</h5>
+              <p>All our products are state of art to save yout maintenance cost and to get maximum result.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <img src="./assets/images/Screenshot_2024-07-17_175835-removebg-preview.png" alt="image" width="90px"
+                  height="80px">
+              </div>
+              <h5 class="mt-4 mb-3">Cost Comparitive</h5>
+              <p>You can challenge our rate in the market we guarantee lowest rate.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <img src="./assets/images/Screenshot_2024-07-17_174945-removebg-preview.png" alt="image" width="50px"
+                  height="50px">
+              </div>
+              <h5 class="mt-4 mb-3">Custom Build Solutions</h5>
+              <p>We offer custom solutions that you don't have to pay for extra equipment.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <img src="./assets/images/Screenshot_2024-07-17_171317-removebg-preview.png" alt="image" width="70px"
+                  height="60px">
+              </div>
+              <h5 class="mt-4 mb-3">Low Cost Maintenance</h5>
+              <p>We ensure the quality of our products.They are easy to maintain and their cost is low.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <img src="./assets/images/Screenshot_2024-07-17_173959-removebg-preview.png" alt="image" width="90px"
+                  height="80px">
+              </div>
+              <h5 class="mt-4 mb-3">Solar Panel Installation</h5>
+              <p>Our team will install solar panels for you.We will also guide you throughout the installation process.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!--Our Team-->
+   <section id="team" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold">Our Team</h1>
+            <div class="line"></div>
+            <p>We offer differnt services</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="main-container">
+            <img src="./assets/images/team1.jpg">
+            <div class="overlay">
+              <h2>Alan Doe</h2>
+              <h5>Webflow Designer</h5>
+            </div>
+          </div>
+          <div class="main-container">
+            <img src="./assets/images/team2.jpg">
+            <div class="overlay">
+              <h2>Alex Johnson </h2>
+              <h5>UI/UX Designer</h5>
+            </div>
+          </div>
+          <div class="main-container">
+            <img src="./assets/images/team3.jpg">
+            <div class="overlay">
+              <h2>Micheal Tom</h2>
+              <h5>Graphic Designer</h5>
+            </div>
+          </div>
+          <div class="main-container">
+            <img src="./assets/images/Screenshot 2024-07-17 160024a.jpg">
+            <div class="overlay">
+              <h2>Maria Smith</h2>
+              <h5>Web Developer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </section>
+
+    <!--Our Projects-->
+    <section id="products" class="section-padding">
+        <div class="container">
+          <div class="text-center">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Our Projects</h1>
+              <div class="line"></div>
+              <p>We are a one-stop-shop for all your solar energy needs</p>
+            </div>
+          </div>
+          <div class="slide-container">
+            <div class="slide-image">
+              <img src="./assets/images/istockphoto-1362872948-1024x1024a.jpg" alt="Project Image 1">
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/pexels-beingsanshots-9808638a.jpg" alt="Project Image 2">
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/pexels-kindelmedia-9799731.jpg" alt="Project Image 3">
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/Screenshot 2024-07-17 234024.png" alt="Project Image 4">
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/Venetian Blinds by Warema.jfif" alt="Project Image 5">
+            </div>
+            <div class="slide-image">
+              <img src="./assets/images/product3a.jpg" alt="Project Image 6">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Counter-->
+  <section id="counter" class="section-padding mt-4">
+    <div class="container text-center">
+      <div class="row g-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="iconbox1">
+            <img src="./assets/images/records1.png" alt="image" width="50px" height="50px">
+          </div>
+          <h1 style="color: whitesmoke;" class="display-3 fw-bold">561</h1>
+          <h6 style="color: whitesmoke;" class="text-uppercase mb-0 mt-3">Solar Panels</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="iconbox1">
+            <img src="./assets/images/records2a.png" alt="image" width="50px" height="50px">
+          </div>
+          <h1 style="color: whitesmoke;" class="display-3 fw-bold mt-2">35</h1>
+          <h6 style="color: whitesmoke;" class="text-uppercase mb-0 mt-3">Water Treatments</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="iconbox1">
+            <img src="./assets/images/records3.png" alt="image" width="50px" height="250px">
+          </div>
+          <h1 style="color: whitesmoke;" class="display-3 fw-bold mt-2">267</h1>
+          <h6 style="color: whitesmoke;" class="text-uppercase mb-0 mt-3">Wind Turbines</h6>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="iconbox1">
+            <img src="./assets/images/records4a.png" alt="image" width="50px" height="70px">
+          </div>
+          <h1 style="color: whitesmoke;" class="display-3 fw-bold mt-1">365</h1>
+          <h6 style="color: whitesmoke;" class="text-uppercase mb-0 mt-3">Recycled Materials</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Review-->
+  <section id="review" class="section-padding bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 fw-semibold">What Client Say</h1>
+            <div class="line"></div>
+            <p>See What Our Clients Are Saying About Us</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel wrapper -->
+      <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center"
+        data-mdb-ride="carousel">
+        <!-- Controls -->
+        <div class="d-flex justify-content-center mb-4">
+          <button data-mdb-button-init class="carousel-control-prev position-relative" type="button"
+            data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon text-body" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button data-mdb-button-init class="carousel-control-next position-relative" type="button"
+            data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+            <span class="carousel-control-next-icon text-body" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner py-4">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 theme-shadow">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">Anna Deynah</h5>
+                  <p>UX Designer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 theme-shadow d-none d-lg-block">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">John Doe</h5>
+                  <p>Web Developer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                    suscipit laboriosam, nisi ut aliquid commodi.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li>
+                      <i class="fas fa-star-half-alt fa-sm"></i>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 theme-shadow d-none d-lg-block">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">Maria Kate</h5>
+                  <p>Photographer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium voluptatum deleniti atque corrupti.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="far fa-star fa-sm"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 theme-shadow">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">John Doe</h5>
+                  <p>UX Designer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 theme-shadow d-none d-lg-block">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">Alex Rey</h5>
+                  <p>Web Developer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                    suscipit laboriosam, nisi ut aliquid commodi.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li>
+                      <i class="fas fa-star-half-alt fa-sm"></i>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 theme-shadow d-none d-lg-block">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">Maria Kate</h5>
+                  <p>Photographer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium voluptatum deleniti atque corrupti.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="far fa-star fa-sm"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single item -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 theme-shadow">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">Anna Deynah</h5>
+                  <p>UX Designer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                    officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 theme-shadow d-none d-lg-block">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">John Doe</h5>
+                  <p>Web Developer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                    suscipit laboriosam, nisi ut aliquid commodi.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li>
+                      <i class="fas fa-star-half-alt fa-sm"></i>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 theme-shadow d-none d-lg-block">
+                  <img class="rounded-circle shadow-1-strong mb-4"
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
+                    style="width: 150px;" />
+                  <h5 class="mb-3">Maria Kate</h5>
+                  <p>Photographer</p>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium voluptatum deleniti atque corrupti.
+                  </p>
+                  <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="far fa-star fa-sm"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Inner -->
+      </div>
+      <!-- Carousel wrapper -->
+    </div>
+    </div>
+    </div>
+  </section>
+
+    <!--FAQ's-->
+    <section id="accordian" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <div class="section-title">
+                <h1 class="display-4 text-white fw-semibold">FAQ's</h1>
+                <div class="line"></div>
+                <p>Get free consultation</p>
+              </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-dark fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Solar Panels Don’t Work Well in Cold Climates
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes, solar panels need sunlight to generate energy, but they actually perform
+                    better in colder temperatures. The misconception stems from the confusion between light and heat. While
+                    solar panels do use light from the sun, heat can, in fact, detract from their efficiency. In colder
+                    climates, the sunlight is often just as abundant and can generate ample energy when captured by
+                    well-installed panels.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-dark fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Solar Panels are Not Economical
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Over the past few years, the prices of solar panels have dropped dramatically
+                    while their efficiency has increased. In addition, governments worldwide are providing subsidies and tax
+                    incentives for solar panel installation. When considering these factors in conjunction with the reduced
+                    long-term electricity costs, solar panels can often be a cost-effective investment.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-dark fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Installing Solar Panels Will Damage My Roof
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Solar panel installation does not inherently damage your roof. In fact, solar
+                    panels can actually add a layer of protection to your roof, helping to safeguard it against weather
+                    damage. Technicians installing these panels are adept at ensuring that the brackets are secured without
+                    causing any harm to the roof. It’s also worth remembering that many solar panels are relatively light,
+                    so they don’t add considerable weight or stress to the roof structure.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed text-dark fw-bold" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Solar panels require constant maintenance
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Solar panels are typically very durable and require little to no maintenance.
+                    Most manufacturers guarantee their product for 25 to 30 years, and many solar panels continue to
+                    function well beyond their warranty. Rain usually serves as natural cleaning, washing away dust or snow
+                    collected on the surface of panels, and further reducing maintenance needs.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!--Logos-->
+  <section id="logo" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="logos">
+          <div class="logo-slide">
+            <img src="./assets/images/sponser1.png" alt="">
+            <img src="./assets/images/sponser2.png" alt="">
+            <img src="./assets/images/sponser4.png" alt="">
+            <img src="./assets/images/sponser5.png" alt="">
+            <img src="./assets/images/sponser6.png" alt="">
+            <img src="./assets/images/sponser7.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section><section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="section-title">
+            <h1 class="display-4 text-white fw-semibold">Get In Touch</h1>
+            <div class="line"></div>
+            <p>Get free consultation</p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <form action="#" method="post" class="row g-4">
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Enter Your First Name" required>
+              </div>
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Enter Your Last Name" required>
+              </div>
+              <div class="form-group col-lg-12">
+                <input type="email" class="form-control" placeholder="Enter Your Email Address" required>
+              </div>
+              <div class="form-group col-lg-12">
+                <input type="text" class="form-control" placeholder="Enter Subject" required>
+              </div>
+              <div class="form-group col-lg-12">
+                <textarea name="Message" rows="5" class="form-control" placeholder="Enter Message" required></textarea>
+              </div>
+              <div class="form-group col-lg-12 d-grid">
+                <button type="submit" style="background-color: rgb(35, 187, 35);" class="btn text-white">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.querySelector('form').addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent actual form submission
+      alert("Your form has been submitted");
+    });
+  </script>
+  <!-- Footer -->
+  <footer class="bg-light text-center mt-4 text-brand">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4 text-white">
+        <!-- Facebook -->
+        <a data-mdb-ripple-init style="color: #50990c;" class="bt btn-floating m-1" href="https://www.facebook.com/"
+          role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a data-mdb-ripple-init style="color: #50990c;" class="bt btn-floating m-1" href="https://twitter.com/"
+          role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a data-mdb-ripple-init style="color: #50990c;" class="bt btn-floating m-1" href="https://www.google.com/"
+          role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a data-mdb-ripple-init style="color: #50990c;" class="bt btn-floating m-1" href="https://www.instagram.com/"
+          role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a data-mdb-ripple-init style="color: #50990c;" class="bt btn-floating m-1" href="https://www.linkedin.com/"
+          role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a data-mdb-ripple-init style="color: #50990c;" class="bt btn-floating m-1" href="https://github.com/"
+          role="button"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2 text-dark">
+                <strong class="fs-5">Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div data-mdb-input-init class="form-outline mb-4">
+                <input type="email" id="form5Example24" class="form-control" />
+                <label class="form-label" for="form5Example24">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button data-mdb-ripple-init style="color: #50990c;" type="submit" class="btn  mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 style="color: #50990c;" class="text-uppercase fw-bold fs-6 mb-4">
+                <i class="fas fa-gem me-3"></i>Sun Spark Solar Energy
+              </h6>
+              <p class="fw-semibold fs-7">
+                Go Solar, Reduce your energy bills and discover why Sun Spark Solar Energy is a world
+                standard solar solutions for homes, business and utilities.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 style="color: #50990c;" class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="./products.html" class="text-reset fw-semibold">Panels</a>
+              </p>
+              <p>
+                <a href="./products.html" class="text-reset fw-semibold">Inverter</a>
+              </p>
+              <p>
+                <a href="./products.html" class="text-reset fw-semibold">Battery</a>
+              </p>
+              <p>
+                <a href="./products.html" class="text-reset fw-semibold">Accessories</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 style="color: #50990c;" class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="./contact.html" class="text-reset fw-semibold">Pricing</a>
+              </p>
+              <p>
+                <a href="./contact.html" class="text-reset fw-semibold">Settings</a>
+              </p>
+              <p>
+                <a href="./contact.html" class="text-reset fw-semibold ">Orders</a>
+              </p>
+              <p>
+                <a href="./contact.html" class="text-reset fw-semibold">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 style="color: #50990c;" class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i style="color: #50990c;" class="fas fa-home fw-semibold me-3"></i> Islamabad, 44000, Pakistan</p>
+              <p>
+                <i style="color: #50990c;" class="fas fa-envelope fw-semibold me-3"></i>
+                <a href="https://en.wikipedia.org/wiki/Solar_energy" class="text-dark">info@example.com</a>
+              </p>
+              <p><i style="color: #50990c;" class="fas fa-phone fw-semibold me-3"></i> + 92 300 0708638</p>
+              <p><i style="color: #50990c;" class="fas fa-print fw-semibold me-3"></i> + 92 322 5550018</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: rgb(35, 187, 35);">
+      © 2020 Copyright:
+      <a class="text-reset text-white fw-bold" href="https://sparksolar.pk/">Sun Spark Solar Energy.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
